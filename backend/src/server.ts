@@ -1,9 +1,11 @@
 import express from 'express';
+import routes from './routes';
+
+import './database/connection';
 
 const app = express();
 
-app.get('/users', (request, response) => {
-   return response.json({ message: 'LUUKER GOSTOSO'});
-});
+app.use(express.json());
+app.use(routes);
 
 app.listen(4000);
