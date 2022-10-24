@@ -56,7 +56,7 @@ export default function Orphanage() {
                             doubleClickZoom={false}
                             >
                             <TileLayer 
-                                url={`https://api.mapbox.com/styles/v1/mapbox/light-v10/tiles/256/{z}/{x}/{y}@2x?access_token=${process.env.REACT_APP_MAPBOX_TOKEN}`} 
+                                url={`https://api.mapbox.com/styles/v1/mapbox/light-v10/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiemRvZzEwMTI3IiwiYSI6ImNsMTU3bW96ZzBxOHgzbHJ0NWwxMDdzdWMifQ.76U5aNzb4ITBtGh4GTtZSg`}  
                             />
                             <Marker interactive={false} icon={mapIcon} position={[-19.5930901,-46.9501635]} />
                         </MapContainer>
